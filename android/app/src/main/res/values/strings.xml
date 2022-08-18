@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">vmeet-ionic</string>
+    <string name="title_activity_main">vmeet-ionic</string>
+    <string name="package_name">com.presidio.vmeet</string>
+    <string name="custom_url_scheme">com.presidio.vmeet</string>
+</resources>

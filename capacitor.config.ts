@@ -1,7 +1,7 @@
 import { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
-  appId: 'io.ionic.starter',
+  appId: 'com.presidio.vmeet',
   appName: 'vmeet-ionic',
   webDir: 'www',
   bundledWebRuntime: false
