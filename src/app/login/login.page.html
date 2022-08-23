@@ -1,8 +1,8 @@
 <ion-header class="ion-no-border">
   <ion-toolbar>
-    <ion-title
-      ><div class="logo"><img src="{{ logo }}" alt="" /></div
-    ></ion-title>
+    <ion-title>
+      <div class="logo"><img src="{{ logo }}" alt="" /></div>
+    </ion-title>
   </ion-toolbar>
 </ion-header>
 
@@ -19,8 +19,8 @@
 
       <ion-card-subtitle>
         Book conference rooms across all our company locations in India
-        <br />Login with your Presidio SSO to get started</ion-card-subtitle
-      >
+        <br />Login with your Presidio SSO to get started
+      </ion-card-subtitle>
     </ion-card-header>
 
     <ion-card-content>
@@ -36,6 +36,20 @@
     </ion-card-content>
   </ion-card>
   <div class="button">
-    <ion-button expand="block" color="secondary">LOGIN WITH SSO</ion-button>
+    <ion-button
+      expand="block"
+      color="secondary"
+      (click)="login()"
+      *ngIf="!isUserLoggedIn"
+      >LOGIN WITH SSO</ion-button
+    >
+
+    <ion-button
+      expand="block"
+      color="secondary"
+      (click)="logout()"
+      *ngIf="isUserLoggedIn"
+      >LOGOUT</ion-button
+    >
   </div>
 </ion-content>
