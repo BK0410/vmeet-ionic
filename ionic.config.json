@@ -1,7 +1,11 @@
 {
   "name": "vmeet-ionic",
   "integrations": {
-    "capacitor": {}
+    "capacitor": {"server": {
+      "iosScheme": "ionic",
+      "androidScheme": "http",
+      "hostname": "com.presidio.vmeet"
+    }}
   },
   "type": "angular"
 }
