@@ -6,7 +6,7 @@ export const environment = {
   production: false,
   auth: {
     clientId: '8b800a53-c972-469b-9c01-59eebee31936',
-    authorization_user_agent:'WEBVIEW',
+    authorization_user_agent: 'WEBVIEW',
     redirectUri: 'http://localhost:8100',
     postLogoutRedirectUri: 'http://localhost:8100',
     authority: 'https://login.microsoftonline.com/',
@@ -22,7 +22,7 @@ export const environment = {
     cacheLocation: 'localStorage',
     storeAuthStateInCookie: true,
   },
-  apiUrl: 'http://localhost:8080/api',
+  apiUrl: 'https://547e-182-74-247-226.in.ngrok.io/api',
   graphApiUrl: 'https://graph.microsoft.com/v1.0',
   graphApiBetaUrl: 'https://graph.microsoft.com/beta',
   cryptoJSSecret: 'cryptoJSSecret-vmeet',
